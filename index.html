@@ -7,90 +7,48 @@
 <style>
 body{
     margin:0;
-    font-family:Arial;
-    background:#111;
+    font-family:Arial, sans-serif;
+    background:#0f0f0f;
     color:white;
 }
+
 header{
-    background:black;
-    padding:20px;
+    background:linear-gradient(90deg,#000,#1c1c1c);
+    padding:25px;
     text-align:center;
-    font-size:28px;
+}
+
+header h1{
+    margin:0;
+    font-size:32px;
+}
+
+.banner{
+    background:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff') center/cover;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
     font-weight:bold;
 }
+
+.section-title{
+    text-align:center;
+    margin-top:40px;
+    font-size:24px;
+}
+
 .container{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
     padding:20px;
 }
+
 .card{
     background:#1c1c1c;
-    width:250px;
+    width:260px;
     margin:15px;
     padding:15px;
-    border-radius:10px;
-    text-align:center;
-}
-.card img{
-    width:100%;
-    border-radius:10px;
-}
-.price{
-    font-size:20px;
-    color:#00ff88;
-    margin:10px 0;
-}
-button{
-    background:#25D366;
-    border:none;
-    padding:10px;
-    width:100%;
-    font-size:16px;
-    cursor:pointer;
-    border-radius:5px;
-}
-button:hover{
-    opacity:0.8;
-}
-</style>
-</head>
-
-<body>
-
-<header>MKM GLOBAL - TÊNIS ORIGINAIS</header>
-
-<div class="container">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db">
-<h3>Nike Air Force 1</h3>
-<div class="price">R$ 499,90</div>
-<a href="https://wa.me/5511999999999"><button>Comprar</button></a>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a">
-<h3>Adidas Ultraboost</h3>
-<div class="price">R$ 599,90</div>
-<a href="https://wa.me/5511999999999"><button>Comprar</button></a>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1618354691229-1fefb0a1c8d7">
-<h3>Air Jordan 1</h3>
-<div class="price">R$ 799,90</div>
-<a href="https://wa.me/5511999999999"><button>Comprar</button></a>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5">
-<h3>Louis Vuitton Trainer</h3>
-<div class="price">R$ 1.999,90</div>
-<a href="https://wa.me/5511999999999"><button>Comprar</button></a>
-</div>
-
-</div>
-
-</body>
-</html>
+    border-radius:15px;
